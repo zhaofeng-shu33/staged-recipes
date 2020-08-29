@@ -28,7 +28,7 @@ requirements:
     - pip
     - pytest
   run:
-    - {{ pin_compatible('python', min_pin='3.8') }}
+    - python  # [py38]
     - pytest
 
 test:
